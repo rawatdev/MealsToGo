@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Abhishek Rawat\.node\corepack\yarn\1.22.15\bin\yarn.js install
+
+PATH: 
+  C:\Users\Abhishek Rawat\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Abhishek Rawat\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\OpenJDK\openjdk-11.0.15_10\bin;C:\Program Files\nodejs;C:\Users\Abhishek Rawat\AppData\Local\Microsoft\WindowsApps;C:\Users\Abhishek Rawat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\src\flutter\bin;C:\Users\Abhishek Rawat\AppData\Local\Microsoft\WindowsApps;C:\Users\Abhishek Rawat\AppData\Local\Yarn\bin;C:\Users\Abhishek Rawat\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, mkdir 'C:\Users\Abhishek~1\AppData\Local\Yarn\Cache\v6\npm-expo-45.0.6-9c336d2052022b0606b07d02e2bd0f41d39109ab-integrity'
+
+npm manifest: 
+  {
+    "name": "mealstogo",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~45.0.0",
+      "expo-status-bar": "~1.3.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.2",
+      "react-native-web": "0.17.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
